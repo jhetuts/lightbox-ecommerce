@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main>
+        <h1>E-commerce</h1>
+        <section class="ecommerce">
+            <div id="figure-wrap-01" class="figure-wrap">
+                <figure class="test01">
+                    <figcaption>
+                        <h2>Editor's Pick</h2>
+                        <div class="more-details">
+                            <h3>Preen Dress By Thornton Bregazzi</h3>
+                            <div class="details">
+                                <a class="shop" href="https://www.farfetch.com" target="_blank">https://www.farfetch.com</a>
+                                <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus laborum adipisci voluptas ipsa tenetur, magni animi consectetur labore suscipit facilis mollitia consequatur fugit numquam? Vero perspiciatis magni dolorem ad fugiat? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus laborum adipisci voluptas ipsa tenetur, magni animi consectetur labore suscipit facilis mollitia consequatur fugit numquam? Vero perspiciatis magni dolorem ad fugiat? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus laborum adipisci voluptas ipsa tenetur, magni animi consectetur labore suscipit facilis mollitia consequatur fugit numquam? Vero perspiciatis magni dolorem ad fugiat? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus laborum adipisci voluptas ipsa tenetur, magni animi consectetur labore suscipit facilis mollitia consequatur fugit numquam? Vero perspiciatis magni dolorem ad fugiat? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus laborum adipisci voluptas ipsa tenetur, magni animi consectetur labore suscipit facilis mollitia consequatur fugit numquam? Vero perspiciatis magni dolorem ad fugiat?</p>
+                                <p class="price">P52,000</p>
+                            </div>
+                            <div class="links">
+                                <a class="shop-btn" href="#" target="_blank">SHOP</a>
+                                <a class="learn-btn" href="#" data-parentid="figure-wrap-01">Learn More</a>
+                            </div>
+                        </div>
+                    </figcaption>
+                    <ul class="list-ecommerce-images slider">
+                        <li><img src="./images/1.jpg" alt=""></li>
+                        <li><img src="./images/2.jpg" alt=""></li>
+                    </ul>
+                </figure>
+            </div>
+            <div id="figure-wrap-02" class="figure-wrap">
+                <figure  class="test02">
+                    <ul class="list-ecommerce-images slider">
+                        <li><img src="./images/4-1.jpg" alt=""></li>
+                        <li><img src="./images/3.jpg" alt=""></li>
+                        <li><img src="./images/4.jpg" alt=""></li>
+                    </ul>
+                    <figcaption>
+                        <h2>Editor's Pick</h2>
+                        <div class="more-details">
+                            <h3>Preen Dress By Thornton Bregazzi</h3>
+                            <div class="details">
+                                <p class="price">P52,000</p>
+                                <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus laborum adipisci voluptas ipsa tenetur, magni animi consectetur labore suscipit facilis mollitia consequatur fugit numquam? Vero perspiciatis magni dolorem ad fugiat? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus laborum adipisci voluptas ipsa tenetur, magni animi consectetur labore suscipit facilis mollitia consequatur fugit numquam? Vero perspiciatis magni dolorem ad fugiat? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus laborum adipisci voluptas ipsa tenetur, magni animi consectetur labore suscipit facilis mollitia consequatur fugit numquam? Vero perspiciatis magni dolorem ad fugiat? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus laborum adipisci voluptas ipsa tenetur, magni animi consectetur labore suscipit facilis mollitia consequatur fugit numquam? Vero perspiciatis magni dolorem ad fugiat? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus laborum adipisci voluptas ipsa tenetur, magni animi consectetur labore suscipit facilis mollitia consequatur fugit numquam? Vero perspiciatis magni dolorem ad fugiat?</p>
+                            </div>
+                            <div class="links">
+                                <a class="shop-btn" href="#" target="_blank">Shop Now</a>
+                                <a class="shop" href="https://www.farfetch.com" target="_blank">Visit Shop</a>
+                            </div>
+                            <a class="learn-btn" href="#" data-parentid="figure-wrap-02">Learn More</a>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+            <figure class="test03">
+                <figcaption>
+                </figcaption>
+                <ul class="list-ecommerce-images slider">
+                    <li><img src="./images/5.jpg" alt=""></li>
+                    <li><img src="./images/6.jpg" alt=""></li>
+                </ul>
+            </figure>
+        </section>
+    </main>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                arrows: false,
+                autoplay: true
+            });
+        });
+    </script>
+    <script src="./scripts/app.js"></script>
+</body>
+</html>
